@@ -2,8 +2,8 @@ import React from "react";
 import "./css/footer.css";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
-import playStore from "../assets/playstore.png";
-import appStore from "../assets/appstore.png";
+import playStore from "../assets/playStore.png";
+import appStore from "../assets/appStore.png";
 
 const Footer = () => {
   return (
