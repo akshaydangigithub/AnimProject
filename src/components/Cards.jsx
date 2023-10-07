@@ -33,7 +33,7 @@ const Cards = () => {
   return (
     <div style={{ zIndex: "999" }} className="mt-5 container">
       <div className="row">
-        <div className="col-md-4 mb-3 cCard">
+        <div className="col-lg-4 mb-3 cCard">
           <div className="border px-5 py-5 rounded bg-white">
             <img className="mb-4" src={card1} alt="" />
             <h4 className="mb-4 fw-bolder">Marketplace</h4>
@@ -58,7 +58,7 @@ const Cards = () => {
             </span>
           </div>
         </div>
-        <div className="col-md-4 mb-3 cCard">
+        <div className="col-lg-4 mb-3 cCard">
           <div className="border px-5 py-5 rounded bg-white">
             <img className="mb-4" src={card2} alt="" />
             <h4 className="mb-4 fw-bolder">Hire Verified Developers</h4>
@@ -82,7 +82,7 @@ const Cards = () => {
             </span>
           </div>
         </div>
-        <div className="col-md-4 mb-3 cCard">
+        <div className="col-lg-4 mb-3 cCard">
           <div className="border px-5 py-5 rounded bg-white">
             <img className="mb-4" src={card3} alt="" />
             <h4 className="mb-4 fw-bolder">Development</h4>

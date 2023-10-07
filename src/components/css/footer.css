@@ -99,3 +99,14 @@
     color: #ffc050;
   }
 }
+
+
+@media (max-width:500px) {
+  .fIcons{
+    font-size: 1.3rem;
+  }
+  .fSocialIcons{
+    width: 50px !important;
+    height: 40px !important;
+  }
+}

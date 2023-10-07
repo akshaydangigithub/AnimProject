@@ -1,3 +1,7 @@
+.wLeft{
+  background-color: white;
+  height: 100vh;
+}
 .wLeft h3 {
   z-index: 99;
   color: #444444;
@@ -18,43 +22,12 @@
 }
 .wLeft p {
   font-size: 1.1rem;
-  line-height: 1.9;
+  line-height: 1.6;
   color: #444444;
 }
-.progress-inner-bottom {
-  position: relative;
-  height: 7px;
-  width: 100%;
-  background-color: rgb(203, 203, 203);
-}
-.after-effect1 {
-  height: 100%;
-  width: 90%;
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  background-color: #6272c7;
-  transition: all 1.2s ease;
-}
-.after-effect2 {
-  height: 100%;
-  width: 80%;
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  background-color: #ffc050;
-  transition: all 1.2s ease;
-}
-.after-effect3 {
-  height: 100%;
-  width: 70%;
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  background-color: #6272c7;
-  transition: all 1.2s ease;
-}
+
 .wRight {
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -62,7 +35,23 @@
   background-color: #f6f4f5;
 }
 .wRight img {
-  height: 80%;
+  height: 60%;
   width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 1206px) {
+  .wRight img {
+    height: 50%;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .wLeft {
+    height: auto;
+  }
+  .wRight {
+    height: auto;
+  }
 }

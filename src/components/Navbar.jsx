@@ -36,7 +36,7 @@ const Navbar = () => {
       <nav className="d-flex align-items-center justify-content-between">
         <div className="cNav px-4 py-2">
           <div className="left">
-            <h1 className="fw-bold">M</h1>
+            <h1 className="fw-bold">G</h1>
           </div>
           <div className="right">
             <span ref={menuIconRef} onClick={menuHandler}>

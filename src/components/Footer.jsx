@@ -76,8 +76,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
-          <div className="col-6 mt-5 copyRight ">© Created By Akshay With ❤</div>
+        <div className="row mt-5 bg-black">
+          <div className="col-6 copyRight align-self-center">© Created By Akshay With ❤</div>
           <div className="col-6 d-flex align-items-center justify-content-end">
             <div className="fSocialIcons">
                 <BiLogoFacebook className="fIcons"/>

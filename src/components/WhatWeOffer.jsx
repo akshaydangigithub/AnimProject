@@ -1,54 +1,107 @@
 import React from "react";
 import slider2 from "../assets/slider1.jpg";
 import "./css/whatWeOffer.css";
-import { GiCheckMark } from "react-icons/gi";
+import { FaUserSecret } from "react-icons/fa";
+import { AiFillCheckCircle } from "react-icons/ai";
+import {HiClipboardDocument} from "react-icons/hi2"
+import { GiProgression } from "react-icons/gi";
 
 const WhatWeOffer = () => {
   return (
     <>
       <div className="container mt-5">
         <div className="row">
-          <div className="col-md-6 mb-3">
-            <div style={{height:"77vh"}} className="whRight border">
+          <div className="col-lg-6 mb-3">
+            <div className="whRight border">
               <img src={slider2} className="d-block w-100" alt="" />
             </div>
           </div>
-          <div className="col-md-6 mb-3">
-            <div style={{height:"77vh"}} className="whLeft border py-5 px-5 bg-white">
-              <h3 className="mb-5 fw-bolder">
-                What <span>We Offer</span>{" "}
+          <div className="col-lg-6 mb-3">
+            <div
+             
+              className="whLeft border py-4 px-4 d-flex flex-column justify-content-center"
+            >
+              <h3 className="mb-4 fw-bolder">
+                For <span>Users</span>{" "}
               </h3>
-              <p className="mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <ul className="list-unstyled">
-                <li>
-                  <span className="whIcon">
-                    <GiCheckMark />
-                  </span>
-                  Web Expertise
-                </li>
-                <li>
-                  <span className="whIcon">
-                    <GiCheckMark />
-                  </span>
-                  Branding
-                </li>
-                <li>
-                  <span className="whIcon">
-                    <GiCheckMark />
-                  </span>
-                  Design Illustration
-                </li>
-                <li>
-                  <span className="whIcon">
-                    <GiCheckMark />
-                  </span>
-                  Data Analysis
-                </li>
-              </ul>
-              <button className="whButton">contact us</button>
+
+              <div className="row">
+                <div className="col-6 card1">
+                  <div className="wLine1">
+                    <div className="gola1"></div>
+                  </div>
+                  <div className="py-4 px-3 rounded-4 shadow respCards">
+                    <div className="d-flex align-items-center ">
+                      <span>
+                        <FaUserSecret className="whIcon me-3" />
+                      </span>
+                      <h5 className="respH3">
+                        Share Your <br /> Requirements
+                      </h5>
+                    </div>
+                    <p className="mt-3">
+                      Share your business needs with us, and our consultants
+                      reach out to you within a day’s time.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-6 card2">
+                  <div className="wLine2">
+                    <div className="gola2"></div>
+                  </div>
+                  <div className="py-4 px-3 rounded-4 shadow respCards">
+                    <div className="d-flex align-items-center">
+                      <span>
+                        <HiClipboardDocument className="whIcon me-3" />
+                      </span>
+                      <h5 className="respH3">
+                        Partner <br /> Alignments
+                      </h5>
+                    </div>
+                    <p className="mt-3">
+                      We then align meetings with our partners and developers
+                      for your project’s detailed discussion and scoping.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="row mt-4">
+                <div className="col-6">
+                  <div className="py-4 px-3 rounded-4 shadow respCards">
+                    <div className="d-flex align-items-center">
+                      <span>
+                        <GiProgression className="whIcon me-3" />
+                      </span>
+                      <h5 className="respH3">
+                        Track <br /> Progress
+                      </h5>
+                    </div>
+                    <p className="mt-3">
+                      All you need to do then is simply track the progression
+                      and approve milestones with our team until its delivery.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-6 card3">
+                  <div className="wLine3">
+                    <div className="gola3"></div>
+                  </div>
+                  <div className="py-4 px-3 rounded-4 shadow respCards">
+                    <div className="d-flex align-items-center">
+                      <span>
+                        <AiFillCheckCircle className="whIcon me-3" />
+                      </span>
+                      <h5 className="respH3">
+                        Sign <br /> Contracts
+                      </h5>
+                    </div>
+                    <p className="mt-3">
+                      Once you approve of our developers and scope of work, we
+                      sign contracts and kickstart your project.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
