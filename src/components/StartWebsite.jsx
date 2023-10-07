@@ -5,7 +5,7 @@ const StartWebsite = () => {
   return (
     <>
       <div className="container mt-5 sContainer border">
-        <h1>Start Your Website Now With Milu!</h1>
+        <h1>Start your business now with GrowYB!</h1>
         <button>start now</button>
       </div>
     </>

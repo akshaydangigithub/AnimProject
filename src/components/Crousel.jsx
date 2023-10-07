@@ -58,8 +58,9 @@ const Crousel = () => {
                 Start <br /> <span>Growing</span>{" "}
               </h1>
               <p className="mb-5 swiperp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                fugit ipsum autem, incidunt quae aut.
+                Utilize GrowYB to connect, share your wastage leads, and let us
+                handle deal closures. Simplify your business journey by
+                partnering with us for effective results.
               </p>
               <div className="swiperbtton">
                 <button className="me-4">Learn more</button>
@@ -83,8 +84,9 @@ const Crousel = () => {
                 We Build <br /> <span>Mobile</span> App{" "}
               </h1>
               <p className="mb-5 swiperp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                fugit ipsum autem, incidunt quae aut.
+                Our team transforms your business vision into reality by
+                developing custom mobile apps and websites. We efficiently
+                connect with vendors to bring your product to life.
               </p>
               <div className="swiperbtton">
                 <button className="me-4">Learn more</button>
@@ -104,13 +106,16 @@ const Crousel = () => {
         >
           <div className="row">
             <div className="col-lg-6 col-md-12 c-left ps-5">
-              <h1 className="mb-4 sliderh1">
-                Creating <span>Engaging</span>
-                <br /> Content{" "}
+              <h1
+                className="mb-4 sliderh1"
+                style={{ fontSize: "2.5rem", lineHeight: 1.2 }}
+              >
+                Simplify Tech <span>Recruitment </span>
+                <br /> with GrowYB{" "}
               </h1>
               <p className="mb-5 swiperp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                fugit ipsum autem, incidunt quae aut.
+                The biggest pool of pre-vetted contractual developers across
+                India.
               </p>
               <div className="swiperbtton">
                 <button className="me-4">Learn more</button>

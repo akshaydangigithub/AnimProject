@@ -4,13 +4,12 @@ import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
 import { Link } from "react-router-dom";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import "./css/card.css"
+import "./css/card.css";
 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 const Cards = () => {
-
   useEffect(() => {
     // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
@@ -20,7 +19,7 @@ const Cards = () => {
     gsap.to(".cCard", {
       opacity: 1,
       y: 0,
-      duration: .9,
+      duration: 0.9,
       ease: "Expo.ease",
       stagger: 0.2,
       scrollTrigger: {
@@ -37,10 +36,13 @@ const Cards = () => {
         <div className="col-md-4 mb-3 cCard">
           <div className="border px-5 py-5 rounded bg-white">
             <img className="mb-4" src={card1} alt="" />
-            <h4 className="mb-4 fw-bolder">Data Protection</h4>
+            <h4 className="mb-4 fw-bolder">Marketplace</h4>
             <p className="mb-5 pTag">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              GrowYB serves as the ultimate destination for businesses in search
+              of digital services. With a wide-ranging portfolio, we address
+              diverse digital needs, making us the go-to choice for
+              organizations looking to excel and prosper in the digital
+              landscape.
             </p>
             <span className="d-flex align-items-center cLink">
               <Link
@@ -50,7 +52,7 @@ const Cards = () => {
                 LEARN MORE
               </Link>
               <MdOutlineKeyboardArrowRight
-              className="arrow fw-bolder"
+                className="arrow fw-bolder"
                 style={{ color: "#6272C7", fontSize: "1.2rem" }}
               />
             </span>
@@ -59,10 +61,12 @@ const Cards = () => {
         <div className="col-md-4 mb-3 cCard">
           <div className="border px-5 py-5 rounded bg-white">
             <img className="mb-4" src={card2} alt="" />
-            <h4 className="mb-4 fw-bolder">Market Analysis</h4>
+            <h4 className="mb-4 fw-bolder">Hire Verified Developers</h4>
             <p className="mb-5 pTag">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              GrowYB provides a reliable source of verified and experienced
+              developers to fulfill all your contractual staffing needs. With
+              our talent pool, you can confidently meet project demands,
+              ensuring expertise and efficiency in your endeavors.
             </p>
             <span className="d-flex align-items-center cLink">
               <Link
@@ -72,7 +76,7 @@ const Cards = () => {
                 LEARN MORE
               </Link>
               <MdOutlineKeyboardArrowRight
-              className="arrow fw-bolder"
+                className="arrow fw-bolder"
                 style={{ color: "#6272C7", fontSize: "1.2rem" }}
               />
             </span>
@@ -81,10 +85,13 @@ const Cards = () => {
         <div className="col-md-4 mb-3 cCard">
           <div className="border px-5 py-5 rounded bg-white">
             <img className="mb-4" src={card3} alt="" />
-            <h4 className="mb-4 fw-bolder">App Development</h4>
+            <h4 className="mb-4 fw-bolder">Development</h4>
             <p className="mb-5 pTag">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our services encompass customized mobile app, website, and
+              software development, meticulously crafted to meet your specific
+              needs. We employ the latest and most advanced technologies to
+              ensure that your digital solutions remain at the
+              forefront of innovation.
             </p>
             <span className="d-flex align-items-center cLink">
               <Link
@@ -94,7 +101,7 @@ const Cards = () => {
                 LEARN MORE
               </Link>
               <MdOutlineKeyboardArrowRight
-              className="arrow fw-bolder"
+                className="arrow fw-bolder"
                 style={{ color: "#6272C7", fontSize: "1.2rem" }}
               />
             </span>
