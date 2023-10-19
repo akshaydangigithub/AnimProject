@@ -19,7 +19,7 @@ const WhatWeOffer = () => {
           <div  className="col-lg-6 mb-3">
             <div
              
-              className="whLeft border py-4 px-4 d-flex flex-column justify-content-center"
+              className="whLeft border py-4 px-md-4 px-0 d-flex flex-column justify-content-center"
             >
               <h3 className="mb-4 fw-bolder">
                 For <span>Users</span>{" "}
@@ -30,7 +30,7 @@ const WhatWeOffer = () => {
                   <div className="wLine1">
                     <div className="gola1"></div>
                   </div>
-                  <div className="py-4 px-3 rounded-4 shadow respCards2">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards2">
                     <div className="d-flex align-items-center ">
                       <span>
                         <FaUserSecret className="whIcon me-3" />
@@ -49,7 +49,7 @@ const WhatWeOffer = () => {
                   <div className="wLine2">
                     <div className="gola2"></div>
                   </div>
-                  <div className="py-4 px-3 rounded-4 shadow respCards2">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards2">
                     <div className="d-flex align-items-center">
                       <span>
                         <HiClipboardDocument className="whIcon me-3" />
@@ -67,7 +67,7 @@ const WhatWeOffer = () => {
               </div>
               <div className="row mt-4">
                 <div className="col-6">
-                  <div className="py-4 px-3 rounded-4 shadow respCards2">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards2">
                     <div className="d-flex align-items-center">
                       <span>
                         <GiProgression className="whIcon me-3" />
@@ -86,7 +86,7 @@ const WhatWeOffer = () => {
                   <div className="wLine3">
                     <div className="gola3"></div>
                   </div>
-                  <div className="py-4 px-3 rounded-4 shadow respCards2">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards2">
                     <div className="d-flex align-items-center">
                       <span>
                         <AiFillCheckCircle className="whIcon me-3" />

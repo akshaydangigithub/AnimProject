@@ -1,9 +1,9 @@
 import React from "react";
 import slider2 from "../assets/slider2.jpg";
-import { FaUserSecret } from "react-icons/fa";
-import { AiFillCheckCircle } from "react-icons/ai";
-import { HiClipboardDocument } from "react-icons/hi2";
+import { FaCloudUploadAlt } from "react-icons/fa";
 import { GiProgression } from "react-icons/gi";
+import { IoLogoClosedCaptioning } from "react-icons/io";
+import { TiTick } from "react-icons/ti";
 
 const WhatWeDo = () => {
   return (
@@ -11,7 +11,7 @@ const WhatWeDo = () => {
       <div className="container mt-4  ">
         <div className="row">
           <div className="col-lg-6 mb-3">
-            <div className="whLeft border py-4 px-4 d-flex flex-column justify-content-center">
+            <div className="whLeft border py-4 px-md-4 d-flex flex-column justify-content-center">
               <h3 className="mb-4 fw-bolder">
                 For <span>Vendors</span>{" "}
               </h3>
@@ -21,10 +21,10 @@ const WhatWeDo = () => {
                   <div className="wLine1">
                     <div className="gola1"></div>
                   </div>
-                  <div className="py-4 px-3 rounded-4 shadow respCards1">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards1">
                     <div className="d-flex align-items-center ">
                       <span>
-                        <FaUserSecret className="whIcon me-3" />
+                        <FaCloudUploadAlt className="whIcon me-3" />
                       </span>
                       <h5 className="respH3">
                         Upload The wastage <br /> Leads
@@ -40,10 +40,10 @@ const WhatWeDo = () => {
                   <div className="wLine2">
                     <div className="gola2"></div>
                   </div>
-                  <div className="py-4 px-3 rounded-4 shadow respCards1">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards1">
                     <div className="d-flex align-items-center">
                       <span>
-                        <HiClipboardDocument className="whIcon me-3" />
+                        <GiProgression className="whIcon me-3" />
                       </span>
                       <h5 className="respH3">
                         Track <br /> Progress
@@ -59,10 +59,10 @@ const WhatWeDo = () => {
               </div>
               <div className="row mt-4">
                 <div className="col-6">
-                  <div className="py-4 px-3 rounded-4 shadow respCards1">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards1">
                     <div className="d-flex align-items-center">
                       <span>
-                        <GiProgression className="whIcon me-3" />
+                        <IoLogoClosedCaptioning className="whIcon me-3" />
                       </span>
                       <h5 className="respH3">
                         Get Closing <br /> Confirmation
@@ -79,10 +79,10 @@ const WhatWeDo = () => {
                   <div className="wLine3">
                     <div className="gola3"></div>
                   </div>
-                  <div className="py-4 px-3 rounded-4 shadow respCards1">
+                  <div className="py-4 px-md-3 px-2 rounded-4 shadow respCards1">
                     <div className="d-flex align-items-center">
                       <span>
-                        <AiFillCheckCircle className="whIcon me-3" />
+                        <TiTick className="whIcon me-3" />
                       </span>
                       <h5 className="respH3">
                         Get profits and <br /> Reports
