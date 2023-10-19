@@ -11,7 +11,7 @@ const WhatWeDo = () => {
       <div className="container mt-4  ">
         <div className="row">
           <div className="col-lg-6 mb-3">
-            <div className="whLeft border py-4 px-md-4 d-flex flex-column justify-content-center">
+            <div className="whLeft border py-4 px-md-4 px-2 d-flex flex-column justify-content-center">
               <h3 className="mb-4 fw-bolder">
                 For <span>Vendors</span>{" "}
               </h3>

@@ -19,7 +19,7 @@ const WhatWeOffer = () => {
           <div  className="col-lg-6 mb-3">
             <div
              
-              className="whLeft border py-4 px-md-4 px-0 d-flex flex-column justify-content-center"
+              className="whLeft border py-4 px-md-4 px-2 d-flex flex-column justify-content-center"
             >
               <h3 className="mb-4 fw-bolder">
                 For <span>Users</span>{" "}
