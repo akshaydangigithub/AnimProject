@@ -2,8 +2,18 @@ import React, { useEffect, useRef, useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import { AiOutlineClose } from "react-icons/ai";
 import "./css/navbar.css";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const RedirectToDashboard = () => {
+    navigate("/vendor/dashboard/uploadLeads");
+  };
+
+  const RedirectToContact = () => {
+    navigate("/vendor/contact");
+  };
+
   const sidebarRef = useRef(null);
   const menuIconRef = useRef(null);
   const [sidebarShow, setSidebarShow] = useState(false);
@@ -56,14 +66,14 @@ const Navbar = () => {
         </span>
 
         <div>
-            <ul>
-                <li>Home</li>
-                <li>Pages</li>
-                <li>Portfolio</li>
-                <li>Shop</li>
-                <li>Blog</li>
-                <li>Elements</li>
-            </ul>
+          <ul>
+            <li>Home</li>
+            <li onClick={RedirectToDashboard}>Dashboard</li>
+            <li onClick={RedirectToContact}>Contact</li>
+            <li>Shop</li>
+            <li>Blog</li>
+            <li>Elements</li>
+          </ul>
         </div>
       </div>
     </>
