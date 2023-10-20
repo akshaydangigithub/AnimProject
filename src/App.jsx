@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Homepage from "./screens/Homepage";
-import VendorContact from "./screens/vendorContact";
+import VendorContact from "./screens/VendorContact"
 import VendorDashboard from "./screens/VendorDashboard";
 import Track from "./components/Track";
 import UploadLeads from "./components/UploadLeads";
